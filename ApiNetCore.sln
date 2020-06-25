@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiNetCore.IntegrationTest"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiNetCore.UnitTest", "ApiNetCore.UnitTest\ApiNetCore.UnitTest.csproj", "{7FAF1D16-96B8-4249-B1F4-27B2432CD2D0}"
 EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{1CCD1BF6-5CC7-4B6C-A450-69CD172189C1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{7FAF1D16-96B8-4249-B1F4-27B2432CD2D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7FAF1D16-96B8-4249-B1F4-27B2432CD2D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7FAF1D16-96B8-4249-B1F4-27B2432CD2D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CCD1BF6-5CC7-4B6C-A450-69CD172189C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CCD1BF6-5CC7-4B6C-A450-69CD172189C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CCD1BF6-5CC7-4B6C-A450-69CD172189C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CCD1BF6-5CC7-4B6C-A450-69CD172189C1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
