@@ -10,3 +10,4 @@ namespace ApiNetCore.Interface
         string url(string url);
     }
 }
+ 

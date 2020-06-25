@@ -1,11 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using ApiNetCore.Models;
-using Microsoft.AspNetCore.Http;
+﻿using ApiNetCore.Models;
 using Microsoft.AspNetCore.Mvc;
-using AutoMapper;
+using System;
 using System.Net.Http;
 
 namespace ApiNetCore.Controllers
@@ -35,18 +30,6 @@ namespace ApiNetCore.Controllers
             calculaJuros.ValorInicial = (Double)valorInicial;
             calculaJuros.Tempo = tempo;
             var taxaJuros = GetTaxaJuros();
-            //using (var client = new HttpClient())
-            //{
-            //    client.BaseAddress = new Uri("http://localhost:56401/api/");
-            //    var retorno = client.GetAsync("TaxaJuros");
-            //    var result = retorno.Result;
-            //    if (result.IsSuccessStatusCode)
-            //    {
-            //        var conteudo = result.Content.ReadAsAsync<Double>();
-            //        var taxaJuros = conteudo.Result;
-            //        calculaJuros.Juros = taxaJuros;
-            //    }
-            //}
 
             calculaJuros.ValorFinal = calculaJuros.ValorInicial * Math.Pow((1 + calculaJuros.Juros), calculaJuros.Tempo);
 
