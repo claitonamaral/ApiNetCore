@@ -1,2 +1,2 @@
 # ApiNetCore
-API que faz um cálculo em memória de juros compostos.
+API que faz cálculo em memória de juros compostos.
