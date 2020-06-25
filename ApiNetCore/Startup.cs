@@ -1,13 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Builder;
+﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Swashbuckle.AspNetCore.Swagger;
 using Microsoft.Extensions.DependencyInjection;
+using Swashbuckle.AspNetCore.Swagger;
 
 namespace ApiNetCore
 {
@@ -27,7 +22,7 @@ namespace ApiNetCore
                     {
                         Title = "ApiNetCore",
                         Version = "v1",
-                        Description = "API - ASP.NET Core",
+                        Description = "API ASP.NET Core",
                         Contact = new Contact
                         {
                             Name = "Claiton Amaral"

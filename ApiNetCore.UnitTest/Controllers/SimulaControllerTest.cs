@@ -1,7 +1,5 @@
 ﻿using ApiNetCore.Controllers;
-using Moq;
 using NUnit.Framework;
-using System;
 
 namespace ApiNetCoreUnitTest
 {

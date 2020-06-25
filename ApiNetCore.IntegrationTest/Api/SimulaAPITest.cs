@@ -1,10 +1,9 @@
-﻿using Xunit;
-using ApiNetCore.Controllers;
+﻿using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.TestHost;
-using Microsoft.AspNetCore.Hosting;
+using System.Net;
 using System.Net.Http;
 using System.Threading.Tasks;
-using System.Net;
+using Xunit;
 
 namespace ApiNetCore.IntegrationTest.Api
 {

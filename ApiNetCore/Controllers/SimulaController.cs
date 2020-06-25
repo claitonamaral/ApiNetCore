@@ -31,6 +31,7 @@ namespace ApiNetCore.Controllers
             calculaJuros.Tempo = tempo;
             var taxaJuros = GetTaxaJuros();
 
+            //Realiza o cálculo do juro composto
             calculaJuros.ValorFinal = calculaJuros.ValorInicial * Math.Pow((1 + calculaJuros.Juros), calculaJuros.Tempo);
 
             Double retorno = Math.Truncate(100 * calculaJuros.ValorFinal) / 100;
