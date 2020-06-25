@@ -1,14 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Net.Http;
-using System.Threading.Tasks;
-using ApiNetCore.Models;
-using IdentityServer4.Models;
-using Microsoft.AspNetCore.Http;
+﻿using ApiNetCore.Models;
 using Microsoft.AspNetCore.Mvc;
-using Newtonsoft.Json;
+using System;
 
 namespace ApiNetCore.Controllers
 {
@@ -16,12 +8,15 @@ namespace ApiNetCore.Controllers
     [ApiController]
     public class CodeController : ControllerBase
     {
+        public readonly String _url = "https://github.com/claitonamaral/ApiNetCore";
         // GET: showmethecode
         [HttpGet("showmethecode")]
         public String GetShowMeTheCode()
         {
-            return "https://github.com/claitonamaral/ApiNetCore";  
-            
+            Code code = new Code();
+            code.url = _url;
+            return code.url;
+
         }
     }
 }
