@@ -20,7 +20,8 @@ namespace ApiNetCore.Controllers
         [HttpGet("showmethecode")]
         public String GetShowMeTheCode()
         {
-            return "";   
+            return "https://github.com/claitonamaral/ApiNetCore";  
+            
         }
     }
 }
