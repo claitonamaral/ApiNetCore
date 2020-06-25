@@ -1,9 +1,9 @@
 ﻿using ApiNetCore.Controllers;
 using NUnit.Framework;
 
-namespace NUnitTestApiNetCore
+namespace ApiNetCoreUnitTest
 {
-    public class TestCodeController
+    public class CodeControllerTest
     {
         [Test]
         public void GetCodeController()

@@ -3,9 +3,9 @@ using Moq;
 using NUnit.Framework;
 using System;
 
-namespace NUnitTestApiNetCore
+namespace ApiNetCoreUnitTest
 {
-    public class TestSimulaController
+    public class SimulaControllerTest
     {
         [Test]
         public void TestCalculaJurosController()

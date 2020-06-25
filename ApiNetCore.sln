@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.30204.135
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiNetCore", "ApiNetCore\ApiNetCore.csproj", "{0C234085-0D03-47C6-B26B-FE50E1A5D8CD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NUnitTestApiNetCore", "NUnitTestApiNetCore\NUnitTestApiNetCore.csproj", "{76221D1F-A78A-4F1D-B77D-8873CCBF2766}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiNetCore.UnitTest", "NUnitTestApiNetCore\ApiNetCore.UnitTest.csproj", "{76221D1F-A78A-4F1D-B77D-8873CCBF2766}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiNetCore.IntegrationTest", "ApiNetCore.IntegrationTest\ApiNetCore.IntegrationTest.csproj", "{D963F6CB-7804-4416-B8FA-01FBA799B3CF}"
 EndProject
