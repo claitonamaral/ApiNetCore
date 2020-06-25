@@ -13,7 +13,7 @@ namespace ApiNetCoreUnitTest
             decimal valorInicial = 100;
             int tempo = 5;
             SimulaController simula = new SimulaController();
-            double result = simula.GetCalculaJuros(valorInicial, tempo);
+            string result = simula.GetCalculaJuros(valorInicial, tempo);
             Assert.IsNotNull(result);
         }
 

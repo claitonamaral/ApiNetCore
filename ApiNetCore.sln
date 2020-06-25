@@ -5,9 +5,9 @@ VisualStudioVersion = 16.0.30204.135
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiNetCore", "ApiNetCore\ApiNetCore.csproj", "{0C234085-0D03-47C6-B26B-FE50E1A5D8CD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiNetCore.UnitTest", "NUnitTestApiNetCore\ApiNetCore.UnitTest.csproj", "{76221D1F-A78A-4F1D-B77D-8873CCBF2766}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiNetCore.IntegrationTest", "ApiNetCore.IntegrationTest\ApiNetCore.IntegrationTest.csproj", "{D963F6CB-7804-4416-B8FA-01FBA799B3CF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiNetCore.IntegrationTest", "ApiNetCore.IntegrationTest\ApiNetCore.IntegrationTest.csproj", "{D963F6CB-7804-4416-B8FA-01FBA799B3CF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiNetCore.UnitTest", "ApiNetCore.UnitTest\ApiNetCore.UnitTest.csproj", "{7FAF1D16-96B8-4249-B1F4-27B2432CD2D0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,14 +19,14 @@ Global
 		{0C234085-0D03-47C6-B26B-FE50E1A5D8CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0C234085-0D03-47C6-B26B-FE50E1A5D8CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0C234085-0D03-47C6-B26B-FE50E1A5D8CD}.Release|Any CPU.Build.0 = Release|Any CPU
-		{76221D1F-A78A-4F1D-B77D-8873CCBF2766}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{76221D1F-A78A-4F1D-B77D-8873CCBF2766}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{76221D1F-A78A-4F1D-B77D-8873CCBF2766}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{76221D1F-A78A-4F1D-B77D-8873CCBF2766}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D963F6CB-7804-4416-B8FA-01FBA799B3CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D963F6CB-7804-4416-B8FA-01FBA799B3CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D963F6CB-7804-4416-B8FA-01FBA799B3CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D963F6CB-7804-4416-B8FA-01FBA799B3CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FAF1D16-96B8-4249-B1F4-27B2432CD2D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FAF1D16-96B8-4249-B1F4-27B2432CD2D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FAF1D16-96B8-4249-B1F4-27B2432CD2D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FAF1D16-96B8-4249-B1F4-27B2432CD2D0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

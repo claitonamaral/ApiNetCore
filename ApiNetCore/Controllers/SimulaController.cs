@@ -23,7 +23,7 @@ namespace ApiNetCore.Controllers
 
         // GET: api/calculajuros/1
         [HttpGet("calculajuros/valorincial={valorInicial}/meses={tempo}")]
-        public Double GetCalculaJuros([FromRoute] decimal valorInicial, [FromRoute] int tempo)
+        public String GetCalculaJuros([FromRoute] decimal valorInicial, [FromRoute] int tempo)
         {
             CalculaJuros calculaJuros = new CalculaJuros();
             calculaJuros.Juros = GetTaxaJuros();
@@ -33,7 +33,8 @@ namespace ApiNetCore.Controllers
 
             calculaJuros.ValorFinal = calculaJuros.ValorInicial * Math.Pow((1 + calculaJuros.Juros), calculaJuros.Tempo);
 
-            return Math.Truncate(100 * calculaJuros.ValorFinal) / 100;
+            Double retorno = Math.Truncate(100 * calculaJuros.ValorFinal) / 100;
+            return retorno.ToString("N2");
         }
     }
 }
